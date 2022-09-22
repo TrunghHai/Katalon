@@ -1,0 +1,110 @@
+[35m[Appium][39m Welcome to Appium v1.22.3
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m   port: 53732
+[35m[Appium][39m   loglevel: info
+[35m[Appium][39m   tmpDir: /var/folders/m8/6_xgxtn540j68468z5q2xb7r0000gn/T//Katalon/Appium/Temp1663573514301
+[35m[Appium][39m   chromedriverPort: 53733
+[35m[Appium][39m Deprecated server args:
+[35m[Appium][39m   [31m--chromedriver-port[39m => --default-capabilities
+[35m[Appium][39m Default capabilities, which will be added to each request unless overridden by desired capabilities:
+[35m[Appium][39m   chromedriverPort: 53733
+[35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:53732
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m7 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m9 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[35m[HTTP][39m [90m{"desiredCapabilities":{"app":"/Users/dev/Katalon Studio/ting_wallet/Data Files/ting_app.apk","noReset":true,"deviceName":"Sony E6883 (Android 7.1.1)","fullReset":false,"platform":"ANDROID","newCommandTimeout":1800,"platformVersion":"7.1.1","automationName":"uiautomator2","autoGrantPermissions":true,"platformName":"Android","udid":"CB5A2AA3VJ","systemPort":53747},"capabilities":{"firstMatch":[{"appium:app":"/Users/dev/Katalon Studio/ting_wallet/Data Files/ting_app.apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceName":"Sony E6883 (Android 7.1.1)","appium:fullReset":false,"appium:newCommandTimeout":1800,"appium:noReset":true,"platform":"ANDROID","platformName":"android","appium:platformVersion":"7.1.1","appium:systemPort":53747,"appium:udid":"CB5A2AA3VJ"}]}}[39m
+[35m[BaseDriver][39m The following capabilities are not standard capabilities and should have an extension prefix:
+[35m[BaseDriver][39m   platform
+[35m[BaseDriver][39m   chromedriverPort
+[35m[Appium][39m Appium v1.22.3 creating new AndroidUiautomator2Driver (v1.70.1) session
+[35m[BaseDriver][39m The following capabilities were provided, but are not recognized by Appium:
+[35m[BaseDriver][39m   platform
+[35m[BaseDriver][39m Session created with session id: 085b808c-6551-4794-ae13-65048be17eff
+[35m[BaseDriver][39m Using local app '/Users/dev/Katalon Studio/ting_wallet/Data Files/ting_app.apk'
+[35m[ADB][39m Found 1 'build-tools' folders under '/Users/dev/.katalon/tools/android_sdk' (newest first):
+[35m[ADB][39m     /Users/dev/.katalon/tools/android_sdk/build-tools/29.0.3
+[35m[ADB][39m Using 'adb' from '/Users/dev/.katalon/tools/android_sdk/platform-tools/adb'
+[35m[AndroidDriver][39m Retrieving device list
+[35m[AndroidDriver][39m Using device: CB5A2AA3VJ
+[35m[ADB][39m Using 'adb' from '/Users/dev/.katalon/tools/android_sdk/platform-tools/adb'
+[35m[ADB][39m Package name: 'vn.vidiva.walletdev'
+[35m[ADB][39m Main activity name: 'vn.vidiva.walletdev.MainActivity'
+[35m[UiAutomator2][39m Server package at '/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v4.27.0.apk' is not writeable. Will copy it into the temporary location at '/var/folders/m8/6_xgxtn540j68468z5q2xb7r0000gn/T/Katalon/Appium/Temp1663573514301/2022819-83720-2vpkus.oz6gr' as a workaround. Consider making this file writeable manually in order to improve the performance of session startup.
+[35m[UiAutomator2][39m Server package at '/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk' is not writeable. Will copy it into the temporary location at '/var/folders/m8/6_xgxtn540j68468z5q2xb7r0000gn/T/Katalon/Appium/Temp1663573514301/2022819-83720-2vpkus.oz6gr' as a workaround. Consider making this file writeable manually in order to improve the performance of session startup.
+[35m[ADB][39m Using 'apksigner.jar' from '/Users/dev/.katalon/tools/android_sdk/build-tools/29.0.3/lib/apksigner.jar'
+[35m[ADB][39m '/var/folders/m8/6_xgxtn540j68468z5q2xb7r0000gn/T/Katalon/Appium/Temp1663573514301/2022819-83720-2vpkus.oz6gr/appium-uiautomator2-server-v4.27.0.apk' is signed with the default certificate
+[35m[ADB][39m '/var/folders/m8/6_xgxtn540j68468z5q2xb7r0000gn/T/Katalon/Appium/Temp1663573514301/2022819-83720-2vpkus.oz6gr/appium-uiautomator2-server-debug-androidTest.apk' is signed with the default certificate
+[35m[UiAutomator2][39m Server packages are not going to be (re)installed
+[35m[ADB][39m Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
+[35m[ADB][39m '/Users/dev/Katalon Studio/ting_wallet/Data Files/ting_app.apk' is signed with a non-default certificate
+[35m[ADB][39m The application at '/Users/dev/Katalon Studio/ting_wallet/Data Files/ting_app.apk' will not be cached, because the device under test has confirmed the support of streamed installs
+[35m[ADB][39m The installation of 'ting_app.apk' took 16107ms
+[35m[UiAutomator2][39m Starting UIAutomator2 server 4.27.0
+[35m[UiAutomator2][39m Using UIAutomator2 server from '/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v4.27.0.apk' and test from '/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk'
+[35m[UiAutomator2][39m Waiting up to 30000ms for UiAutomator2 to be online...
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m Determined the downstream protocol as 'W3C'
+[35m[AndroidDriver][39m Screen already unlocked, doing nothing
+[35m[UiAutomator2][39m Starting 'vn.vidiva.walletdev/vn.vidiva.walletdev.MainActivity and waiting for 'vn.vidiva.walletdev/vn.vidiva.walletdev.MainActivity'
+[35m[Appium][39m New AndroidUiautomator2Driver session created successfully, session 085b808c-6551-4794-ae13-65048be17eff added to master session list
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m32079 ms - 1266[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/085b808c-6551-4794-ae13-65048be17eff[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/085b808c-6551-4794-ae13-65048be17eff [39m[32m200[39m [90m40 ms - 1220[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/085b808c-6551-4794-ae13-65048be17eff[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/085b808c-6551-4794-ae13-65048be17eff [39m[32m200[39m [90m44 ms - 1220[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m1 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/085b808c-6551-4794-ae13-65048be17eff/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":60000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/085b808c-6551-4794-ae13-65048be17eff/timeouts [39m[32m200[39m [90m3 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/085b808c-6551-4794-ae13-65048be17eff/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (085b808c)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 91df3d4b-d722-4be4-9ad5-422b778eff45 with 085b808c-6551-4794-ae13-65048be17eff
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/085b808c-6551-4794-ae13-65048be17eff/source [39m[32m200[39m [90m115 ms - 4409[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/085b808c-6551-4794-ae13-65048be17eff/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/085b808c-6551-4794-ae13-65048be17eff/screenshot [39m[32m200[39m [90m434 ms - 61498[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/085b808c-6551-4794-ae13-65048be17eff/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (085b808c)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 91df3d4b-d722-4be4-9ad5-422b778eff45 with 085b808c-6551-4794-ae13-65048be17eff
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/085b808c-6551-4794-ae13-65048be17eff/source [39m[32m200[39m [90m161 ms - 5249[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/085b808c-6551-4794-ae13-65048be17eff/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/085b808c-6551-4794-ae13-65048be17eff/screenshot [39m[32m200[39m [90m762 ms - 477684[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/085b808c-6551-4794-ae13-65048be17eff/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.view.View' and @resource-id = '' and (@text = '' or . = '')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/085b808c-6551-4794-ae13-65048be17eff/elements [39m[32m200[39m [90m255 ms - 779[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/085b808c-6551-4794-ae13-65048be17eff/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").resourceId(\"\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/085b808c-6551-4794-ae13-65048be17eff/elements [39m[32m200[39m [90m482 ms - 779[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mDELETE[39m [37m/wd/hub/session/085b808c-6551-4794-ae13-65048be17eff[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[Appium][39m Removing session 085b808c-6551-4794-ae13-65048be17eff from our master session list
+[35m[UiAutomator2][39m Did not get confirmation UiAutomator2 deleteSession worked; Error was: UnknownError: An unknown server-side error occurred while processing the command. Original error: 'DELETE /' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
+[35m[UiAutomator2][39m Unable to remove system port forward: Error executing adbExec. Original error: 'Command '/Users/dev/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s CB5A2AA3VJ forward --remove tcp\:53747' exited with code 1'; Command output: adb: error: listener 'tcp:53747' not found
+[35m[UiAutomator2][39m 
+[35m[HTTP][39m [37m<-- DELETE /wd/hub/session/085b808c-6551-4794-ae13-65048be17eff [39m[32m200[39m [90m759 ms - 14[39m
+[35m[HTTP][39m [90m[39m
