@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>remove_payment_method</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e3d4b87f-7486-4364-8234-5e4c52fd066b</testCaseGuid>
+</TestCaseEntity>
